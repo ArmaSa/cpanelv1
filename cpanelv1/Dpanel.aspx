@@ -8,8 +8,6 @@
 
     <section class="basicinfo">
         <h1>خوش آمدید!</h1>
-
-
         <!-- Main content -->
         <section class="content">
             <!-- Small boxes (Stat box) -->
