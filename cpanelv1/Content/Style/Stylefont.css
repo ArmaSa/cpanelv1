@@ -1,0 +1,182 @@
+﻿
+@font-face {
+    font-family:'wYekan';/*تعریف یک نام برای فونت*/
+    src:url('../content/fonts/wYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('wYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('wYekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../content/fonts/wYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../content/fonts/wYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('../content/fonts/wYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../content/fonts/wYekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BYekan';/*تعریف یک نام برای فونت*/
+    src:url('../content/fonts/BYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Yekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Yekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../content/fonts/BYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../content/fonts/BYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('../content/fonts/BYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../content/fonts/byekan-webfont.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BFarnaz';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BFarnaz.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Farnaz'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Farnaz'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BFarnaz.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BFarnaz.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BFarnaz.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/bfarnaz-webfont.svg#BFarnaz') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BZar';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BZar.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Zar'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Zar'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BZar.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BZar.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BZar.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/bzar-webfont.svg#BZar') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BDavat';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BDavat.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Davat'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Davat'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BDavat.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BDavat.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BDavat.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/bdavat-webfont.svg#BDavat') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BBardiya';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BBardiya.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Bardiya'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Bardiya'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BBardiya.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BBardiya.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BBardiya.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/bbardiya-webfont.svg#BBardiya') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family:'BVahidBold';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BVahidBold.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B VahidBold'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B VahidBold'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BVahidBold.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BVahidBold.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BVahidBold.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/bvahidBold-webfont.svg#BVahidBold') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BHoma';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BHoma.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Homa'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Homa'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BHoma.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BHoma.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BHoma.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/bhoma-webfont.svg#BHoma') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+  font-family: 'DenmarkRegular';
+  src: url('../fonts/DenmarkRegular.eot');
+  src:local('1 Denmark Regular'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('1 Denmark Regular'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/DenmarkRegular.eot?#iefix') format('embedded-opentype')
+    url('../fonts/DenmarkRegular.woff') format('woff'),
+     url('../fonts/DenmarkRegular.ttf')  format('truetype'),
+      url('../fonts/DenmarkRegular.svg#DenmarkRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family:'AGOOGLE';/*تعریف یک نام برای فونت*/
+    src:url('../content/fonts/AGOOGLE.eot');/*اکسپلورر 9 به بعد*/
+    src:local('A GOOGLE'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('A GOOGLE'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../content/fonts/AGOOGLE.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../content/fonts/AGOOGLE.woff') format('woff'),/*مرورگر های جدید*/
+        url('../content/fonts/AGOOGLE.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../content/fonts/AGOOGLE-webfont.svg#AGOOGLE') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'BTitrBold';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/BTitrBold.eot');/*اکسپلورر 9 به بعد*/
+    src:local('B Titr'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('B Titr'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/BTitrBold.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/BTitrBold.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/BTitrBold.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/BTitrBold-webfont.svg#BTitrBold') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+    font-family:'yekan';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/yekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('Weblogmayekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('Weblogmayekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/yekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/yekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/yekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/yekan-webfont.svg#yekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}
+
+
+@font-face {
+  font-family: 'DenmarkRegular';
+  src: url('../fonts/DenmarkRegular.eot');
+  src:local('1 Denmark Regular'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('1 Denmark Regular'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/DenmarkRegular.eot?#iefix') format('embedded-opentype')
+    url('../fonts/DenmarkRegular.woff') format('woff'),
+     url('../fonts/DenmarkRegular.ttf')  format('truetype'),
+      url('../fonts/DenmarkRegular.svg#DenmarkRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+ 
+  font-family: 'FontAwesome';
+ 
+  src: url('../content/fonts/fontawesome-webfont.eot?v=4.0.3');
+ 
+  src: url('../content/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
+ 
+  url('../content/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'),
+ 
+  url('../content/fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'),
+ 
+  url('../content/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+ 
+  font-weight: normal;
+ 
+  font-style: normal;
+ 
+}
+
+
+

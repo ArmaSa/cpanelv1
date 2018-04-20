@@ -1,0 +1,12 @@
+﻿@font-face {
+    font-family:'wYekan';/*تعریف یک نام برای فونت*/
+    src:url('../content/fonts/wYekan.eot');/*اکسپلورر 9 به بعد*/
+    src:local('wYekan'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('wYekan'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../content/fonts/wYekan.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../content/fonts/wYekan.woff') format('woff'),/*مرورگر های جدید*/
+        url('../content/fonts/wYekan.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../content/fonts/wYekan.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+}

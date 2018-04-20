@@ -1,0 +1,445 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="cpanelv1.Masterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+        <link href="~/Content/Stylefont.css" rel="stylesheet" />
+    <link href="~/Content/Style/main.css" rel="stylesheet" />
+    <link href="Content/Style/awsome.css" rel="stylesheet" />
+
+    <link href="Content/adminstyle/_all-skins.min.css" rel="stylesheet" />
+    <link href="Content/adminstyle/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/adminstyle/AdminLTE.min.css" rel="stylesheet" />
+    <script src="PIE.htc"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="skin-silver sidebar-mini">
+    <form id="form1" runat="server">
+
+        <div class="wrapper">
+                <header class="main-header">
+            <div class="logocpanel">
+            </div>
+            <div class="datetime">
+
+            </div>
+            <div class="headnav">
+                <nav id="navi" class="navbar" role="navigation">
+                    <div class="navbar-custom-menu">
+                        <ul class="navup navbar-nav">
+                            <!-- Messages: style can be found in dropdown.less-->
+
+                            <li>
+                                <!-- Sidebar toggle button-->
+                                <a href="#" class="sidebar-toggle-up sidebar-toggle visibleoff" data-toggle="offcanvas" role="button">
+                                    <span class="sr-only">Toggle navigation</span>
+                                </a>
+                            </li>
+                            
+                            <li class="dropdown messages-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="label label-success">4</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 4 messages</li>
+                                    <li>
+                                        <!-- inner menu: contains the actual data -->
+                                        <ul class="menu">
+                                            <li>
+                                                <!-- start message -->
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="Images/userimg.png" class="img-circle" alt="User Image" />
+                                                    </div>
+                                                    <h4>Support Team
+                                                <small><i class="fa fa-clock-o"></i>5 mins</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <!-- end message -->
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="Images/userimg.png" class="img-circle" alt="user image" />
+                                                    </div>
+                                                    <h4>AdminLTE Design Team
+                                                <small><i class="fa fa-clock-o"></i>2 hours</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="Images/userimg.png" class="img-circle" alt="user image" />
+                                                    </div>
+                                                    <h4>Developers
+                                                <small><i class="fa fa-clock-o"></i>Today</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="Images/userimg.png" class="img-circle" alt="user image" />
+                                                    </div>
+                                                    <h4>Sales Department
+                                                <small><i class="fa fa-clock-o"></i>Yesterday</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="Images/userimg.png" class="img-circle" alt="user image" />
+                                                    </div>
+                                                    <h4>Reviewers
+                                                <small><i class="fa fa-clock-o"></i>2 days</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="footer"><a href="#">See All Messages</a></li>
+                                </ul>
+                            </li>
+                            
+                            <!-- Notifications: style can be found in dropdown.less -->
+                            <li class="dropdown notifications-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-bell-o"></i>
+                                    <span class="label label-warning">10</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 10 notifications</li>
+                                    <li>
+                                        <!-- inner menu: contains the actual data -->
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-users text-aqua"></i>5 new members joined today
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-warning text-yellow"></i>Very long description here that may not fit into the page and may cause design problems
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-users text-red"></i>5 new members joined
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-shopping-cart text-green"></i>25 sales made
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user text-red"></i>You changed your username
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="footer"><a href="#">View all</a></li>
+                                </ul>
+                            </li>
+                           
+                            <!-- Tasks: style can be found in dropdown.less -->
+                            <li class="dropdown tasks-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-flag-o"></i>
+                                    <span class="label label-danger">9</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 9 tasks</li>
+                                    <li>
+                                        <!-- inner menu: contains the actual data -->
+                                        <ul class="menu">
+                                            <li>
+                                                <!-- Task item -->
+                                                <a href="#">
+                                                    <h3>Design some buttons
+                                                <small class="pull-right">20%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">20% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <!-- end task item -->
+                                            <li>
+                                                <!-- Task item -->
+                                                <a href="#">
+                                                    <h3>Create a nice theme
+                                                <small class="pull-right">40%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">40% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <!-- end task item -->
+                                            <li>
+                                                <!-- Task item -->
+                                                <a href="#">
+                                                    <h3>Some task I need to do
+                                                <small class="pull-right">60%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">60% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <!-- end task item -->
+                                            <li>
+                                                <!-- Task item -->
+                                                <a href="#">
+                                                    <h3>Make beautiful transitions
+                                                <small class="pull-right">80%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">80% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <!-- end task item -->
+                                        </ul>
+                                    </li>
+                                    <li class="footer">
+                                        <a href="#">View all tasks</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <!-- User Account: style can be found in dropdown.less -->
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <img src="Images/userimg.png" class="user-image" alt="User Image" />
+                                    <span class="hidden-xs">علی اکبر بزرگی</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- User image -->
+                                    <li class="user-header">
+                                        <img src="Images/userimg.png" class="img-circle" alt="User Image" />
+                                        <p>
+                                            ALI AKBAR BOZORGHI - Web Developer
+                                    <small>Member since Nov. 2012</small>
+                                        </p>
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body">
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">Followers</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">Sales</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">Friends</a>
+                                        </div>
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div>
+                                            <a href="#" class="btn btn-default btn-flat">پروفایل</a>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="btn btn-default btn-flat">قفل صفحه</a>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="btn btn-default btn-flat">خروج</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <!-- Control Sidebar Toggle Button -->
+                            <li>
+                                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i>
+                                    <span class="hidden-xs">تنظیمات</span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" data-toggle="control-sidebar"><i class="fa fa-sign-out"></i>
+                                    <span class="hidden-xs">خروج</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+
+        <div class="fphead">
+            <div class="viewhead">
+                <div class="leftveiwhead">
+                    OWPanel Standard
+                </div>
+                <div class="navigation">
+                    <span class="naviheader">
+                        منوی اصلی
+                    </span>
+                    <!-- Sidebar toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                </div>
+                <div class="rightveiwhead">
+                    <ul>
+                        <li>
+                            <a href="#">مشاهده سایت</a>
+                        </li>
+                        <li class="linespace">|</li>
+                        <li>
+                            <a href="#">مشاهده تالار گفتمان</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <ul class="sidebar-menu">
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i><span>داشبورد</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html">
+                            <i class="fa fa-users"></i><span>کابران</span>
+                            <small class="label pull-right bg-red">139</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html">
+                            <i class="fa fa-bars"></i><span>منوها</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html">
+                            <i class="fa fa-external-link-square"></i><span>ویجت ها</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html">
+                            <i class="fa fa-list-alt"></i><span>صفحات</span>
+                        </a>
+                    </li>
+                    <li><a href="documentation/index.html"><i class="fa fa-th"></i><span>محتوا</span></a></li>
+
+                    <li>
+                        <a href="pages/calendar.html">
+                            <i class="fa fa-dropbox"></i><span>محصولات</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-pie-chart"></i>
+                            <span>آمـار</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/charts/chartjs.html"><i class="fa fa-dropbox"></i>محصولات</a></li>
+                            <li><a href="pages/charts/morris.html"><i class="fa fa-shopping-cart"></i>فروش</a></li>
+                            <li><a href="pages/charts/flot.html"><i class="fa fa-users"></i>کاربران</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="documentation/index.html"><i class="fa fa-comments"></i><span>نظرات مطالب</span></a></li>
+                    <li><a href="documentation/index.html"><i class="fa fa-picture-o"></i><span>اسلاید شو</span></a></li>
+                    <li><a href="documentation/index.html"><i class="fa fa-calculator"></i><span>حسابرسی</span></a></li>
+
+                    <li><a href="documentation/index.html">
+                        <i class="fa fa-book"></i><span>سفارشات</span>
+                        <small class="label pull-right bg-aqua">12</small>
+
+                    </a>
+                    </li>
+                    <li><a href="documentation/index.html"><i class="fa fa-credit-card"></i><span>حسابهای بانکی</span></a></li>
+                    <li><a href="documentation/index.html"><i class="fa fa-volume-up"></i>
+                        <span>پیام های عمومی</span>
+                        <small class="label pull-right bg-fuchsia">12</small>
+                    </a></li>
+                    <li><a href="documentation/index.html"><i class="fa fa-facebook-square"></i><span>لینک ها</span></a></li>
+                    <li><a href="documentation/index.html"><i class="fa fa-skyatlas"></i><span>مدیریت فایل ها</span></a></li>
+                    <li><a href="documentation/index.html"><i class="fa fa-file-text"></i><span>اسکریپت</span></a></li>
+
+                    <li>
+                        <a href="pages/mailbox/mailbox.html">
+                            <i class="fa fa-envelope"></i><span>ایمیل</span>
+                            <small class="label pull-right bg-yellow">12</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/mailbox/mailbox.html">
+                            <i class="fa fa-pencil-square"></i><span>پیام ها</span>
+                            <small class="label pull-right bg-yellow">12</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/mailbox/mailbox.html">
+                            <i class="fa fa-pencil-square-o"></i><span>یاداشت ها</span>
+                            <small class="label pull-right bg-yellow">12</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html">
+                            <i class="fa fa-calendar"></i><span>تقویم</span>
+                            <small class="label pull-right bg-green">3</small>
+                        </a>
+                    </li>
+
+                    <li class="header">برچسب ها</li>
+                    <li><a href="#"><i class="fa fa-warning text-yellow"></i><span>اخطارها</span></a></li>
+                    <li><a href="#"><i class="fa fa-info-circle text-aqua"></i><span>اطلاعات</span></a></li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+
+
+    <script src="scripts/js/demo.js"></script>
+    <script src="Scripts/js/jQuery-2.1.3.min.js"></script>
+    <script src="scripts/js/jquery-ui-1.10.3.min.js"></script>
+    <script src="scripts/js/bootstrap.min.js"></script>
+    <script src="scripts/js/jquery.slimscroll.min.js"></script>
+    <script src="scripts/js/fastclick.min.js"></script>
+    <script src="scripts/js/app.min.js"></script>
+
+    <script src="scripts/js/pages/dashboard2.js"></script>
+
+
+    <div class="content-wrapper">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            </div>
+    </form>
+</body>
+</html>

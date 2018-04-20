@@ -1,0 +1,118 @@
+﻿body {
+    background-color: #fff;
+    direction: rtl;
+    font-family: wYekan;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    margin: 0px auto;
+    text-align: right;
+    border-bottom: 3px solid #11d1eb;
+    border-top: 2px solid #aaaaaa;
+    background: url(/Images/bottompic.png)repeat-x bottom;
+    background-color: #fff;
+    z-index: 1030;
+    position: relative;
+}
+
+.logocpanel {
+    width: 250px;
+    background: url(/Images/onixwebcpanel.png)no-repeat center center;
+    height: 70px;
+    display: inline-table;
+}
+
+.headnav {
+    float: left;
+    height: 70px;
+}
+
+.datetime {
+    color: #aaaaaa;
+    display: inline-table;
+    vertical-align: top;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: wYekan;
+}
+
+.navbar {
+    float: right;
+    width: auto !important;
+    margin-top: 5px;
+}
+
+aside.main-sidebar {
+    position: absolute;
+    right: 0px;
+    min-height: 100%;
+    z-index: 810;
+    transition: transform 0.3s ease-in-out 0s, width 0.3s ease-in-out 0s;
+    width: 230px;
+    background-color: #ebe9e9;
+}
+
+.fphead {
+    direction: rtl;
+    clear: both;
+    text-align: right;
+    line-height: 35px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+    .fphead .viewhead {
+        width: 100%;
+        height: 35px;
+        color: #3f5a71;
+        background-color: #ebe9e9;
+        padding-left: 15px;
+    }
+
+.leftveiwhead {
+    float: left;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.rightveiwhead {
+    float: right;
+    font-size: 15px;
+}
+
+    .rightveiwhead ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        .rightveiwhead ul li {
+            padding-left: 5px;
+            padding-right: 5px;
+            display: inline-table;
+            cursor: default;
+        }
+
+            .rightveiwhead ul li a {
+                text-decoration: none;
+                color: #3f5a71;
+            }
+
+                .rightveiwhead ul li a:hover {
+                    color:#0094ff
+                }
+
+.linespace {
+    color: #c7c6c6;
+}
+
+div.main {
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    float: left;
+    display: inline-table;
+}

@@ -1,0 +1,183 @@
+﻿.basicinfo {
+    direction: rtl;
+    clear: both;
+    text-align: right;
+    margin: 0px auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    padding-top: 0px;
+    min-height: 250px;
+}
+
+    /**/
+    .basicinfo h1 {
+        width: 100%;
+        color: #0170ce;
+        font-weight: 400;
+        font-size: 30px;
+        margin: 0px;
+        padding-right: 20px;
+    }
+
+    .basicinfo h2 {
+        width: 100%;
+        color: #444;
+        font-weight: 400;
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0px;
+    }
+
+    .basicinfo label {
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #000;
+        font-weight: 400;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .basicinfo .lbltxt {
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+        display: inline-block;
+    }
+        .basicinfo .lbltxt1 {
+        color: #3f5a71;
+        font-weight: 400;
+        font-size: 14px;
+        display: inline-block;
+    }
+.pdf10
+{
+    padding-left:10px;
+}
+
+    .row:before {
+        display: table;
+        content: " ";
+    }
+
+.helptag {
+    font-size: 20px;
+}
+
+.timeframe ul, .helpframe ul, .onixframe ul, .shop ul {
+    padding: 0px;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 100px;
+}
+
+    .timeframe ul li, .helpframe ul li {
+        display: inline-table;
+        padding-right: 15px;
+        padding-left: 15px;
+        vertical-align: middle;
+    }
+
+    .onixframe ul li, .shop ul li {
+        display: block;
+        text-align: center;
+        vertical-align: top;
+    }
+
+.onixframe ul, .shop ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.rightside {
+    min-width: 35%;
+    display: inline-block;
+    min-height: 200px;
+    padding-right: 10px;
+}
+
+@media (max-width:400px) {
+    .rightside {
+        min-width: 50%;
+    }
+
+    .col-xs-6 {
+        width: 100%;
+    }
+
+    .small-box {
+        margin-bottom: 0px;
+    }
+
+    .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .onixframe ul li, .shop ul li {
+        display: inline-table;
+        padding-right: 15px;
+        padding-left: 15px;
+        vertical-align: middle;
+        padding-top: 15px;
+    }
+    .fontmobile
+    {
+        font-size:17px;
+    }
+}
+@media (max-width:1000px) 
+{
+        .rightside {
+        min-width: 100%;
+        padding-right: 0px;
+    }
+}
+.statisticstext {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #3f5a71;
+    margin: 0px auto;
+    text-align: center;
+}
+
+    .statisticstext table {
+        width: 90%;
+        border: 1px solid #adabab;
+        margin: 0px auto;
+    }
+
+        .statisticstext table tr {
+            width: 100%;
+            height: 30px;
+            border-bottom: 1px solid #adabab;
+            line-height: 25px;
+            text-align: right;
+        }
+
+            .statisticstext table tr:nth-child(2n+1) {
+                background-color: #f1efef;
+            }
+
+            .statisticstext table tr td {
+                width: 50%;
+                padding-right: 10px;
+            }
+
+                .statisticstext table tr td:last-child {
+                    text-align: right;
+                }
+
+.leftside {
+    max-width: 50%;
+    width: 550px;
+    display: inline-block;
+    min-height: 200px;
+    vertical-align: top;
+    padding-right: 10px;
+}

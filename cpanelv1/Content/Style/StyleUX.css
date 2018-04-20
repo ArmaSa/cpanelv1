@@ -1,0 +1,49 @@
+﻿
+.hux
+{
+    position:relative;
+    text-align:right;
+    padding-right:100px;
+    font-size:30px;
+    height:50px;
+    background-color:#2b2b2b;
+    color:#0bb6ac;
+    vertical-align:bottom;
+    background:url(/Images/basicsubm.png)no-repeat bottom right;
+}
+.hux h1
+{
+    font-weight:400;
+    font-size:30px;
+    margin:0px;
+    padding:0px;
+}
+.huxtitle
+{
+    text-align:right;
+    padding-right:10px;
+    font-size:16px;
+    height:30px;
+    background-color:#808080;
+    color:#fff;
+}
+.rbp1
+{
+                margin: 0px auto;
+    text-align:center;
+}
+.rbp1 tr
+{
+    display:inline-block;
+    padding-left:15px;
+    padding-right:15px;
+}
+.rbp1 input
+{
+    display:inline-table;
+    cursor:pointer;
+}
+.rbp1 label
+{
+    cursor:pointer;
+}
