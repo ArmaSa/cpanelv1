@@ -11,7 +11,8 @@ namespace cpanelv1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string s = "";
+            int i = 1;
         }
     }
 }
